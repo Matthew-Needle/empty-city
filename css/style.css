@@ -1,3 +1,57 @@
-h1{
-  color: blue;
+/*Global*/
+.button{
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: #000000;
+}
+
+.button h3{
+  color: #FFF;
+}
+
+
+/*Header*/
+header{
+  width: 100%;
+  height: 150px;
+  background-color: #6F6F6F;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+header .logo{
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+header .logo .city-word{
+  margin-left: 6px;
+}
+
+header .logo .nyc-word{
+  margin-left: 16px;
+}
+
+/*Header Nav*/
+nav{
+  font-size: 16px;
+  display: flex;
+}
+
+nav div{
+  display: grid;
+  grid-template-rows: 24px 24px 24px 24px;
+  height: 94px;
+}
+
+nav div span{
+  grid-row: 4/4;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav div:hover{
+  background-color: #ffc505;
 }
